@@ -31,7 +31,9 @@ export default createStore({
       state.userData.push(payload);
     },
     deleteUser(state, index) {
-      state.userData.splice(index, 1);
+      if (index !== -1) {
+        state.userData.splice(index, 1);
+      }
     },
   },
 });

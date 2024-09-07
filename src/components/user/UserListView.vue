@@ -10,7 +10,8 @@
     <div>
       <h5 class="mb-0">{{ item.userid }}</h5>
       <p class="mb-0">{{ item.username }}</p>
-      <div class="btn btn-primary" @click="deleteUser">회원삭제</div>
+      <p class="mb-0">{{ item.theater }}</p>
+      <div @click="deleteUser(i)">❌</div>
     </div>
   </div>
 </template>
@@ -30,5 +31,11 @@ const deleteUser = (index) => {
   height: 50px;
   border-radius: 50%;
   overflow: hidden;
+}
+
+.btn,
+.btn-primay {
+  width: 15px;
+  height: 15px;
 }
 </style>

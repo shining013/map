@@ -41,7 +41,16 @@
         @change="handleImage"
         accept="image/*"
       />
+
       <label class="input-group-text" for="fileform">Upload</label>
+    </div>
+    <div class="mb-3">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="my-theater"
+        v-model="userdata.theater"
+      />
     </div>
 
     <div class="btn btn-primary" @click="addUser">회원가입</div>
@@ -59,6 +68,7 @@ const userdata = ref({
   username: null,
   addr: null,
   image: null,
+  theater: null,
 });
 
 const clearform = () => {
@@ -67,6 +77,7 @@ const clearform = () => {
   userdata.value.username = null;
   userdata.value.addr = null;
   userdata.value.image = null;
+  userdata.value.theater = null;
 };
 
 const addUser = () => {
@@ -76,6 +87,7 @@ const addUser = () => {
     username: userdata.value.username,
     addr: userdata.value.addr,
     image: userdata.value.image,
+    theater: userdata.value.theater,
   };
   store.commit("addUser", uData);
   clearform();

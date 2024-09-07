@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar navbar-expand-md bg-body-tertiary">
       <div class="container">
-        <router-link class="navbar-brand" to="/">logo</router-link>
+        <router-link class="navbar-brand" to="/">mm</router-link>
         <button
           class="navbar-toggler"
           type="button"
