@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar navbar-expand-md bg-body-tertiary">
       <div class="container">
-        <router-link class="navbar-brand" to="/">mm</router-link>
+        <router-link class="navbar-brand" to="/">indie movie space</router-link>
         <button
           class="navbar-toggler"
           type="button"
@@ -31,4 +31,8 @@
 
 <script setup></script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.navbar .container {
+  background-color: fuchsia;
+}
+</style>

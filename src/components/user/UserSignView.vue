@@ -1,7 +1,7 @@
 <template>
   <div>
     <form></form>
-    <div class="mb-3">
+    <div class="mb-1">
       <input
         type="text"
         class="form-control"
@@ -9,7 +9,7 @@
         v-model="userdata.userId"
       />
     </div>
-    <div class="mb-3">
+    <div class="mb-1">
       <input
         type="text"
         class="form-control"
@@ -17,20 +17,12 @@
         v-model="userdata.password"
       />
     </div>
-    <div class="mb-3">
+    <div class="mb-1">
       <input
         type="text"
         class="form-control"
         placeholder="username"
         v-model="userdata.username"
-      />
-    </div>
-    <div class="mb-3">
-      <input
-        type="text"
-        class="form-control"
-        placeholder="addr"
-        v-model="userdata.addr"
       />
     </div>
     <div class="input-group mb-3">
@@ -44,7 +36,7 @@
 
       <label class="input-group-text" for="fileform">Upload</label>
     </div>
-    <div class="mb-3">
+    <div class="mb-1">
       <input
         type="text"
         class="form-control"
@@ -53,7 +45,9 @@
       />
     </div>
 
-    <div class="btn btn-primary" @click="addUser">회원가입</div>
+    <div class="btn" style="background-color: fuchsia" @click="addUser">
+      submit
+    </div>
   </div>
 </template>
 
@@ -102,4 +96,8 @@ const handleImage = (e) => {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.btn {
+  height: 50px;
+}
+</style>
