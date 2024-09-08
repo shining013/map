@@ -2,7 +2,9 @@
   <div>
     <nav class="navbar navbar-expand-md bg-body-tertiary">
       <div class="container">
-        <router-link class="navbar-brand" to="/">indie movie space</router-link>
+        <router-link class="navbar-brand" to="/"
+          >indie movie space in seoul</router-link
+        >
         <button
           class="navbar-toggler"
           type="button"

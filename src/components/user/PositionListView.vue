@@ -8,7 +8,7 @@
     >
       <div class="btn" @click="selectTheater(item)">
         <h5 class="mb-0">{{ item.content }}</h5>
-        <p class="mb-0">{{ item.address }}</p>
+        <p class="mb-1">{{ item.address }}</p>
       </div>
     </div>
   </div>
@@ -34,10 +34,39 @@ const selectTheater = (item) => {
   overflow-y: auto;
   border: 1px solid #ccc;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.btn {
+  // border: 1px solid #ddd;
+  padding: 10px;
+
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #f0f0f0;
+}
+.scroll-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 .mb-0 {
   font-size: 20px;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.mb-1 {
+  font-size: 20px;
+  justify-content: left;
+  align-items: flex-end;
 }
 .theater-details {
   margin-top: 20px;

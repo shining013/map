@@ -1,5 +1,6 @@
 <template>
-  <div>영화관 {{ moveLat }} / {{ moveLng }}</div>
+  <div>영화관</div>
+  <div>{{ moveLat }} / {{ moveLng }}</div>
   <div id="map" style="width: 500px; height: 400px"></div>
 
   {{ latitude }}{{ longitude }}
