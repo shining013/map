@@ -47,276 +47,85 @@ import "swiper/swiper-bundle.css";
 const restaurantData = {
   종로구: [
     {
-      name: "The Gourmet Bistro",
+      name: "종로구1",
       description: "A cozy place offering fine dining and wine pairing.",
     },
     {
-      name: "Sushi Master",
+      name: "종로구2",
       description: "Authentic sushi with fresh, locally sourced ingredients.",
-    },
-    {
-      name: "Cafe Delight",
-      description: "Charming cafe with a variety of pastries and coffees.",
-    },
-    {
-      name: "Bistro Bella",
-      description: "Italian bistro known for its pizza and pasta.",
-      image: "https://example.com/restaurant4.jpg",
-    },
-    {
-      name: "Steakhouse Supreme",
-      description: "Premium steaks and a selection of fine wines.",
-    },
-    {
-      name: "Vegan Bistro",
-      description: "Delicious vegan dishes and creative plant-based meals.",
-    },
-    {
-      name: "Seafood Shack",
-      description: "Fresh seafood dishes with a casual atmosphere.",
-    },
-    {
-      name: "Dessert Haven",
-      description: "Delectable desserts and sweet treats.",
     },
   ],
   광진구: [
     {
-      name: "Korean BBQ King",
+      name: "광진구1",
       description: "Authentic Korean BBQ with a wide range of meats.",
     },
     {
-      name: "Dim Sum Delight",
+      name: "광진구2",
       description: "Delicious dim sum with various fillings.",
-    },
-    {
-      name: "Modern Bistro",
-      description: "Contemporary dishes with a fusion twist.",
-    },
-    {
-      name: "Ramen Express",
-      description: "Quick and tasty ramen dishes.",
-    },
-    {
-      name: "Indian Spice",
-      description: "Flavorful Indian curries and spices.",
-    },
-    {
-      name: "Mexican Fiesta",
-      description: "Vibrant Mexican dishes with bold flavors.",
-    },
-    {
-      name: "Thai Garden",
-      description: "Traditional Thai dishes in a garden setting.",
-    },
-    {
-      name: "French Bistro",
-      description: "Classic French cuisine with a modern touch.",
     },
   ],
   중구: [
     {
-      name: "Korean BBQ King",
+      name: "중구1",
       description: "Authentic Korean BBQ with a wide range of meats.",
     },
     {
-      name: "Dim Sum Delight",
+      name: "중구2",
       description: "Delicious dim sum with various fillings.",
-    },
-    {
-      name: "Modern Bistro",
-      description: "Contemporary dishes with a fusion twist.",
-    },
-    {
-      name: "Ramen Express",
-      description: "Quick and tasty ramen dishes.",
-    },
-    {
-      name: "Indian Spice",
-      description: "Flavorful Indian curries and spices.",
-    },
-    {
-      name: "Mexican Fiesta",
-      description: "Vibrant Mexican dishes with bold flavors.",
-    },
-    {
-      name: "Thai Garden",
-      description: "Traditional Thai dishes in a garden setting.",
-    },
-    {
-      name: "French Bistro",
-      description: "Classic French cuisine with a modern touch.",
     },
   ],
   서대문구: [
     {
-      name: "Korean BBQ King",
+      name: "서대문구1",
       description: "Authentic Korean BBQ with a wide range of meats.",
     },
     {
-      name: "Dim Sum Delight",
+      name: "서대문구2",
       description: "Delicious dim sum with various fillings.",
-    },
-    {
-      name: "Modern Bistro",
-      description: "Contemporary dishes with a fusion twist.",
-    },
-    {
-      name: "Ramen Express",
-      description: "Quick and tasty ramen dishes.",
-    },
-    {
-      name: "Indian Spice",
-      description: "Flavorful Indian curries and spices.",
-    },
-    {
-      name: "Mexican Fiesta",
-      description: "Vibrant Mexican dishes with bold flavors.",
-    },
-    {
-      name: "Thai Garden",
-      description: "Traditional Thai dishes in a garden setting.",
-    },
-    {
-      name: "French Bistro",
-      description: "Classic French cuisine with a modern touch.",
     },
   ],
   성북구: [
     {
-      name: "Korean BBQ King",
+      name: "성북구1",
       description: "Authentic Korean BBQ with a wide range of meats.",
     },
     {
-      name: "Dim Sum Delight",
+      name: "성북구2",
       description: "Delicious dim sum with various fillings.",
-    },
-    {
-      name: "Modern Bistro",
-      description: "Contemporary dishes with a fusion twist.",
-    },
-    {
-      name: "Ramen Express",
-      description: "Quick and tasty ramen dishes.",
-    },
-    {
-      name: "Indian Spice",
-      description: "Flavorful Indian curries and spices.",
-    },
-    {
-      name: "Mexican Fiesta",
-      description: "Vibrant Mexican dishes with bold flavors.",
-    },
-    {
-      name: "Thai Garden",
-      description: "Traditional Thai dishes in a garden setting.",
-    },
-    {
-      name: "French Bistro",
-      description: "Classic French cuisine with a modern touch.",
     },
   ],
   마포구: [
     {
-      name: "Korean BBQ King",
+      name: "마포구1",
       description: "Authentic Korean BBQ with a wide range of meats.",
     },
     {
-      name: "Dim Sum Delight",
+      name: "마포구2",
       description: "Delicious dim sum with various fillings.",
     },
-    {
-      name: "Modern Bistro",
-      description: "Contemporary dishes with a fusion twist.",
-    },
-    {
-      name: "Ramen Express",
-      description: "Quick and tasty ramen dishes.",
-    },
-    {
-      name: "Indian Spice",
-      description: "Flavorful Indian curries and spices.",
-    },
-    {
-      name: "Mexican Fiesta",
-      description: "Vibrant Mexican dishes with bold flavors.",
-    },
-    {
-      name: "Thai Garden",
-      description: "Traditional Thai dishes in a garden setting.",
-    },
-    {
-      name: "French Bistro",
-      description: "Classic French cuisine with a modern touch.",
-    },
+   
   ],
   동작구: [
     {
-      name: "Korean BBQ King",
+      name: "동작구1",
       description: "Authentic Korean BBQ with a wide range of meats.",
     },
     {
-      name: "Dim Sum Delight",
+      name: "동작구2",
       description: "Delicious dim sum with various fillings.",
-    },
-    {
-      name: "Modern Bistro",
-      description: "Contemporary dishes with a fusion twist.",
-    },
-    {
-      name: "Ramen Express",
-      description: "Quick and tasty ramen dishes.",
-    },
-    {
-      name: "Indian Spice",
-      description: "Flavorful Indian curries and spices.",
-    },
-    {
-      name: "Mexican Fiesta",
-      description: "Vibrant Mexican dishes with bold flavors.",
-    },
-    {
-      name: "Thai Garden",
-      description: "Traditional Thai dishes in a garden setting.",
-    },
-    {
-      name: "French Bistro",
-      description: "Classic French cuisine with a modern touch.",
     },
   ],
   노원구: [
     {
-      name: "Korean BBQ King",
+      name: "노원1",
       description: "Authentic Korean BBQ with a wide range of meats.",
     },
     {
-      name: "Dim Sum Delight",
+      name: "노원2",
       description: "Delicious dim sum with various fillings.",
     },
-    {
-      name: "Modern Bistro",
-      description: "Contemporary dishes with a fusion twist.",
-    },
-    {
-      name: "Ramen Express",
-      description: "Quick and tasty ramen dishes.",
-    },
-    {
-      name: "Indian Spice",
-      description: "Flavorful Indian curries and spices.",
-    },
-    {
-      name: "Mexican Fiesta",
-      description: "Vibrant Mexican dishes with bold flavors.",
-    },
-    {
-      name: "Thai Garden",
-      description: "Traditional Thai dishes in a garden setting.",
-    },
-    {
-      name: "French Bistro",
-      description: "Classic French cuisine with a modern touch.",
-    },
+    
   ],
   // 다른 지역 데이터도 추가 가능
 };

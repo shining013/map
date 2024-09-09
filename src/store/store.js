@@ -96,34 +96,6 @@ export default createStore({
           "시네마테크KOFA에서는 국내외 고전, 예술, 독립영화를 상영하고 있으며, 한국영화박물관에서는 한국영화의 지난 역사를 직접 체험할 수 있다. 영상도서관에서는 국내 최대 규모의 영화 자료들을 열람할 수 있다. 그 외 연구발간사업, 찾아가는 영화관을 진행하고 있으며, 한국고전영화 VOD 등 다양한 온라인 서비스를 운영하고 있다.",
       },
     ],
-    restaurantData: {
-      종로구: [
-        {
-          name: "The Gourmet Bistro",
-          description: "A cozy place offering fine dining and wine pairing.",
-          image: "https://example.com/restaurant1.jpg",
-        },
-        {
-          name: "Sushi Master",
-          description:
-            "Authentic sushi with fresh, locally sourced ingredients.",
-          image: "https://example.com/restaurant2.jpg",
-        },
-      ],
-      용산구: [
-        {
-          name: "Pasta Palace",
-          description: "Traditional Italian pasta with a modern twist.",
-          image: "https://example.com/restaurant3.jpg",
-        },
-        {
-          name: "Burger Haven",
-          description: "Gourmet burgers with a variety of toppings.",
-          image: "https://example.com/restaurant4.jpg",
-        },
-      ],
-      // 추가 지역 데이터
-    },
   },
   mutations: {
     addUser(state, payload) {
